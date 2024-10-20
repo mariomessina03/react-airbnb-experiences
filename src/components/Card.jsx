@@ -13,7 +13,7 @@ export default function Card(props) {
     <div className="card">
       {badgeText && <div className="card-badge">{badgeText}</div>}
       <img
-        src={`../public/card-imgs/${props.singleData.coverImg}`}
+        src={`/card-imgs/${props.singleData.coverImg}`}
         className="card-image"
       ></img>
       <div className="card-stats">
